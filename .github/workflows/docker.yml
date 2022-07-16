@@ -25,4 +25,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: glebz1/KillerJoke623:latest
+          tags: glebz1/killerjoke623:latest
