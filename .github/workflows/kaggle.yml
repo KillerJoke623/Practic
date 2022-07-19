@@ -41,7 +41,7 @@ jobs:
               echo "KAGGLE_KEY=8ca667a3eab9cacf69b04f082009f9d6" >> $GITHUB_ENV
 
       - name: Submit Predictions to Kaggle
-        run: kaggle competitions submit -c titanic -f ./kaggle/domashnee.csv -m "Submition from GitHub"
+        run: kaggle competitions submit -c titanic -f ./kaggle/submission.csv -m "Submition from GitHub"
           
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v3.1.0
